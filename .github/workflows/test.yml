@@ -3,10 +3,10 @@ name: Test Pipeline
 on:
   push:
 
-  jobs:
-    test:
-      runs-on: ubuntu-latest
+jobs:
+  test:
+    runs-on: ubuntu-latest
 
-      steps:
-        - name: Print message
-          run: echo "GitHub Actions is working"
+    steps:
+      - name: Print message
+        run: echo "GitHub Actions is working"
